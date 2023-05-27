@@ -1,0 +1,76 @@
+.menu {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+
+	height: 65px;
+
+	font-family: 'Gilroy';
+	font-style: normal;
+	font-weight: 400;
+}
+
+.menu__logo,
+.menu__login,
+.menu__burger {
+	height: 100%;
+}
+
+.menu__login img,
+.menu__burger img {
+	height: 100%;
+}
+
+.menu__login {
+	display: flex;
+	align-items: center;
+}
+
+.menu a {
+	color: #05162C;
+	opacity: 0.7;
+}
+
+.menu__login_round {
+	border-radius: 50%;
+	width: 30px;
+	height: 30px;
+	background: #FFFFFF;
+	box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.04);
+}
+
+.menu__login_round img {
+	padding: 7px;
+}
+
+
+@media (max-width: 650px) {
+	.menu__btn {
+		display: none;
+	}
+}
+
+@media (min-width: 650px) and (max-width: 900px) {
+
+	.menu__logo,
+	.menu__login,
+	.menu__burger {
+		height: 100%;
+		margin: 0 auto;
+	}
+}
+
+@media (max-width: 900px) {
+
+	.menu__link,
+	.menu__login {
+		display: none;
+	}
+}
+
+@media (min-width: 900px) {
+	.menu__burger {
+		display: none;
+	}
+}

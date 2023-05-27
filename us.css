@@ -1,0 +1,57 @@
+.us {
+	width: 100%;
+}
+
+.block__us {
+	/*
+	background-color: blueviolet;
+	*/
+	background-color: #fff;
+	min-width: 23%;
+	height: auto;
+	margin: 0px 0px 0px 0px;
+
+	border: 1px dashed #D0D5DD;
+	border-radius: 10px;
+
+
+	font-family: 'Gilroy';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	text-align: center;
+
+	color: #05162C;
+
+	opacity: 0.7;
+}
+
+
+.block__us_text {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+
+	padding: 20px;
+}
+
+.block__us_text img {
+	width: 45%;
+}
+
+
+
+@media (max-width: 900px) {
+
+	.us__all {
+		display: flex;
+		justify-content: center;
+		width: 100%;
+	}
+
+	.block__us {
+		width: 100%;
+	}
+}

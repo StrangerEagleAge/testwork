@@ -1,0 +1,18 @@
+.btn {
+	width: 171px;
+	height: 45px;
+}
+
+.btn__green {
+	background-color: #25C883;
+	border-radius: 5px;
+}
+
+.btn__text {
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 19px;
+	color: #FFFFFF;
+	text-align: center;
+	margin-bottom: 5px;
+}

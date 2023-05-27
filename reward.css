@@ -1,0 +1,27 @@
+.reward {
+	width: 100%;
+}
+
+.block__reward {
+	/*
+	background: #FFFFFF;
+	box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.1);
+	*/
+	padding: 20px;
+	width: 50%;
+}
+
+.block__reward img {
+	width: 100%;
+}
+
+.block__reward p {
+	font-family: 'Gilroy';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 141%;
+	/* or 23px */
+	color: #000000;
+	opacity: 0.8;
+}

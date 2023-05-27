@@ -1,0 +1,78 @@
+.names {
+	margin-top: 100px;
+}
+
+.header__title h1 {
+	align-items: center;
+	color: #05162C;
+	font-family: 'Gilroy';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 55px;
+
+	margin-top: 0.5em;
+	/* Отступ сверху */
+	margin-bottom: 0.5em;
+	/* Отступ снизу */
+}
+
+.header__text {
+	font-family: 'Gilroy';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 26px;
+
+	color: #000000;
+}
+
+.header__img {
+	position: relative;
+	margin-top: inherit;
+	/*
+	margin-top: auto;
+	*/
+}
+
+.margin__top20 {
+	margin-top: 20px;
+}
+
+.margin__top45 {
+	margin-top: 45px;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 900px) {
+
+	.row__center {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.width-68,
+	.width-32 {
+		width: 100%;
+	}
+
+	.btn {
+		margin: 0 auto;
+	}
+
+	.names {
+		margin-top: 10px;
+	}
+
+	.container1100 {
+		/*добавляем отсупы от краёв*/
+		padding: 0px 15px 0px 15px;
+	}
+}

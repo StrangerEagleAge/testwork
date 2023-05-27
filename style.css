@@ -1,0 +1,464 @@
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: Tahoma, sans-serif;
+	font-size: 16px;
+	color: #111;
+	/*
+	background-color: blueviolet;
+	*/
+	/*
+	background-color: #F4F9F7;
+	*/
+}
+
+img {
+	width: 100%;
+}
+
+.wrapper {
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	min-height: 10vh;
+}
+
+.footer {
+	/*прижимаем книзу футер*/
+	margin-top: auto;
+}
+
+/*
+.header,
+.main,
+.footer {
+	padding: 20px;
+
+}
+*/
+
+.container1100 {
+	max-width: 1100px;
+	width: 100%;
+	margin: 0 auto;
+	/*
+	padding: 35px 20px;
+	*/
+}
+
+.header {
+	padding: 10px 10px 0px 10px;
+	min-height: 100vh;
+}
+
+.footer {
+	padding: 20px;
+	background-color: #111;
+	color: #fff;
+}
+
+
+/* цвета */
+.bg__grey {
+	background-color: #F4F9F7;
+}
+
+.bg__greys {
+	background-color: #F2F8F5;
+}
+
+
+.bg__whity {
+	background-color: #F5F5F5;
+}
+
+.color__green {
+	color: #25C883;
+}
+
+.color__yellow {
+	color: #FFCC47;
+}
+
+
+
+
+/*** links ссылки ***/
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #fff;
+}
+
+/*** End of links ссылки ***/
+
+.row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.row__up {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: flex-start;
+}
+
+.row__center {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.row__down {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: flex-end;
+}
+
+.center {
+	display: flex;
+	justify-content: center;
+}
+
+
+
+
+
+.column {
+	display: flex;
+	flex-direction: column;
+}
+
+.block {
+	display: flex;
+	align-items: center;
+}
+
+.centercenter {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.between {
+	display: flex;
+	justify-content: space-between;
+}
+
+
+
+
+.text p,
+.menu,
+.menu a {
+	/*
+	padding: 10px;
+	*/
+	margin: 0 0 10px;
+}
+
+
+.width-100 {
+	width: 100%;
+}
+
+.width-50 {
+	width: 50%;
+}
+
+.width-33 {
+	width: 33%;
+}
+
+.width-25 {
+	width: 25%;
+}
+
+.width-20 {
+	width: 20%;
+}
+
+/* пара */
+.width-32 {
+	width: 32%;
+}
+
+.width-68 {
+	width: 68%;
+}
+
+/**/
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+
+
+
+.font__zendots {
+	font-family: 'Zen Dots', cursive;
+}
+
+
+.text__big {
+	font-size: 70px;
+	line-height: 0px;
+}
+
+.text__min {
+	font-size: 15px;
+	line-height: 0;
+}
+
+.text__miny {
+	font-size: 12px;
+	line-height: 0;
+}
+
+.text__left {
+	text-align: left;
+}
+
+.text__right {
+	text-align: right;
+}
+
+
+.text__center {
+	text-align: center;
+}
+
+
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+
+
+.sticker {
+	font-size: 15px;
+	background-color: chartreuse;
+	border-radius: 10px;
+	padding: 5px 15px 5px 10px;
+	width: 170px;
+}
+
+.sticker img {
+	width: 30px;
+	color: #111;
+}
+
+
+
+
+.basic__text p {
+	margin-top: 1em;
+	/* Отступ сверху */
+	margin-bottom: 1em;
+	/* Отступ снизу */
+}
+
+.text__img p {
+	margin-top: 0em;
+	/* Отступ сверху */
+	margin-bottom: 0em;
+	/* Отступ снизу */
+}
+
+
+
+
+.abs__text {
+	position: absolute;
+	right: 50px;
+	bottom: 120px;
+	transform: rotate(270deg);
+
+	font-size: 18px;
+
+}
+
+
+
+.block__right {
+	text-align: right;
+	display: flex;
+	justify-content: flex-end;
+}
+
+
+
+
+
+
+
+
+.fullscreen_one {
+	/* затемняем фоновую картинку */
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+		url('img/1639092195-1031-www.lookw.ru.jpg') center / cover no-repeat fixed;
+
+}
+
+.top10 {
+	/*
+	margin-top: 30px;
+	*/
+	line-height: 50px;
+}
+
+
+.cent {
+	display: flex;
+	align-items: center;
+
+	margin-top: 100px;
+	/*прижимаем книзу футер*/
+	margin-top: auto;
+}
+
+.height-100 {
+	height: 100%;
+}
+
+
+
+
+
+
+
+
+
+.imgwidth-32 {
+	width: 320px;
+}
+
+.imgwidth-50 {
+	width: 500px;
+}
+
+
+
+.name {
+	font-family: 'Gilroy';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 25px;
+	line-height: 47px;
+	/* identical to box height */
+
+
+	color: #05162C;
+}
+
+
+.link__center {
+	margin: 0 auto;
+}
+
+
+
+
+
+
+
+.block__review {
+	width: 49%;
+	background: #FFFFFF;
+	box-shadow: 0px 21px 28px rgba(0, 0, 0, 0.05);
+	border-radius: 10px;
+	padding: 20px;
+}
+
+.block__review img {
+	width: 100%;
+}
+
+.block__review_text {
+	width: 70%;
+	margin-left: 10px;
+}
+
+
+
+.block__review_text h4 {
+	font-family: 'Gilroy';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 23px;
+
+	color: #05162C;
+}
+
+time {
+	font-family: 'Gilroy';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 14px;
+
+	color: #05162C;
+
+	opacity: 0.4;
+}
+
+.block__review_text p {
+	font-family: 'Gilroy';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 166%;
+	/* or 23px */
+
+
+	color: #05162C;
+}
+
+
+
+.block__price {
+	background: #FFFFFF;
+	box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.1);
+
+	padding: 20px;
+	width: 32%;
+}
+
+.block__price_text h4 {
+	font-family: 'Gilroy';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 48px;
+	line-height: 56px;
+	text-align: center;
+
+	color: #2C0505;
+}
+
+.block__price_text p {
+	font-family: 'Gilroy';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 31px;
+	text-align: center;
+
+	color: #000000;
+}
